@@ -3,6 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- External Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Animation Codepen -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
     <!-- Title -->
     <title>ASA Properti Syariah</title>
     <!-- My Style -->
@@ -12,97 +25,207 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar">
-      <!-- Logo -->
-      <a class="logo" href="#">
-        <img src="logo.png" alt="Logo Perusahaan" />
-      </a>
-
-      <!-- Menu -->
-      <ul class="menu">
-        <li><a href="#tentang">Tentang</a></li>
-        <li><a href="#layanan">Layanan</a></li>
-        <li><a href="#proyek">Proyek</a></li>
-        <li><a href="#kontak">Kontak</a></li>
-      </ul>
+      <div class="hero-container">
+        <div class="hero-row header-wrap">
+          <div class="brand-name">
+            <a href="#" class="logo">
+              <img
+                class="image"
+                decoding="async"
+                loading="lazy"
+                src="assets/logo.png"
+                alt="ASA Propertindo"
+                height="50px"
+                width="100%"
+                height="328"
+              />
+            </a>
+          </div>
+          <div class="hamburger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="hero-navbar">
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#news-section">News</a>
+              </li>
+              <li>
+                <a href="#team-section">Team Go</a>
+              </li>
+              <li>
+                <a href="#contact-section">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="hero-content">
-        <h1>Selamat Datang di ASA Properti Syariah</h1>
-        <p>
-          Kami menyediakan solusi properti syariah yang berkualitas dan sesuai
-          dengan prinsip syariah Islam.
-        </p>
-        <a href="#kontak" class="btn">Hubungi Kami</a>
+    <!-- Header -->
+    <header class="hero-section">
+      <div class="slider">
+        <div class="hero-container">
+          <div class="slider-content">
+            <div class="slider-general">
+              <article class="welcome-text">
+                <h1>Hello, <span id="nama"></span>.</h1>
+                <div class="text-wrap">
+                  <h2 class="main-title">
+                    Let us help you find your dream home.
+                  </h2>
+                </div>
+                <div class="frame">
+                  <button class="btn-frame">Buy a Home</button>
+                  <button class="btn-frame">List a Home</button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+    </header>
 
     <!-- Tentang Section -->
-    <section id="tentang" class="section">
+    <section id="about" class="section">
       <div class="container">
-        <h2>Tentang Kami</h2>
-        <p>Deskripsi singkat tentang perusahaan dan visi misi.</p>
-      </div>
-    </section>
-
-    <!-- Layanan Section -->
-    <section id="layanan" class="section">
-      <div class="container">
-        <h2>Layanan Kami</h2>
-        <div class="layanan-item">
-          <img src="layanan1.png" alt="Layanan 1" />
-          <h3>Layanan 1</h3>
-          <p>Deskripsi layanan 1.</p>
-        </div>
-        <div class="layanan-item">
-          <img src="layanan2.png" alt="Layanan 2" />
-          <h3>Layanan 2</h3>
-          <p>Deskripsi layanan 2.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Proyek Section -->
-    <section id="proyek" class="section">
-      <div class="container">
-        <h2>Proyek Kami</h2>
-        <div class="proyek-item">
-          <img src="proyek1.jpg" alt="Proyek 1" />
-          <h3>Proyek 1</h3>
-          <p>Deskripsi proyek 1.</p>
-        </div>
-        <div class="proyek-item">
-          <img src="proyek2.jpg" alt="Proyek 2" />
-          <h3>Proyek 2</h3>
-          <p>Deskripsi proyek 2.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Kontak Section -->
-    <section id="kontak" class="section">
-      <div class="container">
-        <h2>Hubungi Kami</h2>
+        <h2>ABOUT US</h2>
+        <strong>VISION</strong>
         <p>
-          Silakan isi formulir di bawah ini atau hubungi kami melalui kontak
-          yang tertera.
+          Broadcast in the way of Allah by building Islamic civilization through
+          Islamic housing as wide as possible and as much as possible.
         </p>
-        <form action="#" method="POST">
-          <input type="text" name="nama" placeholder="Nama" required />
-          <input type="email" name="email" placeholder="Email" required />
-          <textarea name="pesan" placeholder="Pesan" required></textarea>
-          <button type="submit" class="btn">Kirim Pesan</button>
-        </form>
+        <strong>MISSION</strong>
+        <ul>
+          <li>Become a Trusted and Trusted Developer.</li>
+          <li>Building Islamic and modern Residential areas.</li>
+          <li>
+            Spread the Benefits and Become a partner of the Rahmatan-Lil Alamin
+            family.
+          </li>
+        </ul>
       </div>
     </section>
+
+    <!-- GALLERY START -->
+    <section id="gallery" class="parallax">
+      <div class="content">
+        <h2>GALLERY</h2>
+        <hr />
+      </div>
+      <div class="gallery-container">
+        <div class="gallery-img">
+          <img
+            src="https://i.pinimg.com/564x/a9/1c/4d/a91c4d6698c053c141639d7fb5a24a40.jpg"
+            alt="Meeting with team leader"
+          />
+        </div>
+        <div class="gallery-img">
+          <img
+            src="https://i.pinimg.com/564x/bb/ad/06/bbad0615a3d4b6e542fbd48b46c788cf.jpg"
+            alt="Office first floor"
+          />
+        </div>
+        <div class="gallery-img">
+          <img
+            src="https://i.pinimg.com/564x/65/9e/50/659e50be6afa71fdeb5d2aca5d961850.jpg"
+            alt="Monthly meeting"
+          />
+        </div>
+        <div class="gallery-img">
+          <img
+            src="https://i.pinimg.com/564x/a6/53/21/a65321aa6263f3f57bf051e577640c3d.jpg"
+            alt="Meeting with all section"
+          />
+        </div>
+        <div class="gallery-img">
+          <img
+            src="https://i.pinimg.com/736x/f0/96/7b/f0967b7dc28949673c2a3ddd4c71cffe.jpg"
+            alt="Office second floor"
+          />
+        </div>
+        <div class="gallery-img">
+          <img
+            src="https://i.pinimg.com/564x/d2/9f/5d/d29f5dc3969efaee6320698f6e53239b.jpg"
+            alt="Office third floor"
+          />
+        </div>
+      </div>
+
+      <div class="popup-gallery">
+        <i class="fa-solid fa-xmark"></i>
+        <img src="images/gallery/gallery.jpg" alt="Meeting with team leader" />
+      </div>
+    </section>
+    <!-- GALLERY END -->
+
+    <!-- CONTACT START -->
+    <section id="contact" class="contact">
+      <h2>CONTACT US</h2>
+      <hr />
+      <h4 class="sub-contact">
+        Need help? Want to ask? Feel free to send us a message
+      </h4>
+      <div class="row">
+        <div class="maps">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.2561836209084!2d113.22015097425651!3d-7.762633176986749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7ada12cecd8e7%3A0x417160d62d250827!2sGg.%20Kelinci%2C%20Kebonsari%20Kulon%2C%20Kec.%20Kanigaran%2C%20Kota%20Probolinggo%2C%20Jawa%20Timur%2067214!5e0!3m2!1sid!2sid!4v1689646981243!5m2!1sid!2sid"
+            width="600"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div class="form-container">
+          <form action="https://formspree.io/f/xjvqvgdq" method="POST">
+            <input
+              type="text"
+              name="Name"
+              id="name"
+              placeholder="Full name"
+              required
+            />
+            <input
+              type="email"
+              name="Email"
+              id="email"
+              placeholder="Your email"
+              required
+            />
+            <input
+              type="number"
+              name="Phone"
+              id="phone"
+              placeholder="Phone no"
+              required
+            />
+            <textarea
+              name="Message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
+            <input type="submit" value="Send" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- CONTACT END -->
 
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <p>Hak Cipta &copy; 2023 ASA Properti Syariah</p>
+        <p>Hak Cipta &copy; 2023 By: Mohammad Hasan</p>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
     <script src="script.js"></script>
   </body>
